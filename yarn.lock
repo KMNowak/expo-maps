@@ -1364,24 +1364,12 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@mapbox/geo-viewport@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@mapbox/geo-viewport/-/geo-viewport-0.2.2.tgz#93206c044238c21a60fca7e9064c8ce63e8027b4"
-  integrity sha1-kyBsBEI4whpg/KfpBkyM5j6AJ7Q=
-  dependencies:
-    "@mapbox/sphericalmercator" "~1.0.2"
-
 "@mapbox/geo-viewport@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@mapbox/geo-viewport/-/geo-viewport-0.4.0.tgz#0a8dc5812d3be12c778d6545b2f3f4dec9c633da"
   integrity sha512-5OAXoP8C96Co3UDIzFliSzrK5njb9oG2H/RTMaZUW1swxIZlj3n3A5ccep5XAEIhTWxBLg/Cz48D3rUbAdXwHQ==
   dependencies:
     "@mapbox/sphericalmercator" "~1.1.0"
-
-"@mapbox/sphericalmercator@~1.0.2":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@mapbox/sphericalmercator/-/sphericalmercator-1.0.5.tgz#70237b9774095ed1cfdbcea7a8fd1fc82b2691f2"
-  integrity sha1-cCN7l3QJXtHP286nqP0fyCsmkfI=
 
 "@mapbox/sphericalmercator@~1.1.0":
   version "1.1.0"
@@ -3764,9 +3752,9 @@ hoist-non-react-statics@^2.3.1:
   integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
@@ -4874,11 +4862,6 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
-
-kdbush@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/kdbush/-/kdbush-1.0.1.tgz#3cbd03e9dead9c0f6f66ccdb96450e5cecc640e0"
-  integrity sha1-PL0D6d6tnA9vZszblkUOXOzGQOA=
 
 kdbush@^3.0.0:
   version "3.0.0"
@@ -6127,11 +6110,6 @@ react-native-appearance@~0.3.3:
     invariant "^2.2.4"
     use-subscription "^1.0.0"
 
-react-native-dimension@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/react-native-dimension/-/react-native-dimension-1.0.6.tgz#049e40746160137f5e1dde89983b04ff8dc288d5"
-  integrity sha1-BJ5AdGFgE39eHd6JmDsE/43CiNU=
-
 react-native-gesture-handler@~1.6.0:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.6.1.tgz#678e2dce250ed66e93af409759be22cd6375dd17"
@@ -6154,16 +6132,6 @@ react-native-map-clustering@^3.3.9:
   dependencies:
     "@mapbox/geo-viewport" "^0.4.0"
     supercluster "^7.0.0"
-
-react-native-maps-clustering@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/react-native-maps-clustering/-/react-native-maps-clustering-1.2.4.tgz#0065858feb095c5ebc8b3201178de783d155df5c"
-  integrity sha512-MDNc2AXSbw1l/XoXjZhowUW+ZCmV2Ao8iajcXesg+QrGLzO2vPNu9bXOkzmVabMuxdEMFTvGuQjPSJxnmw3WEA==
-  dependencies:
-    "@mapbox/geo-viewport" "^0.2.2"
-    prop-types "^15.6.0"
-    react-native-dimension "^1.0.6"
-    supercluster "^3.0.1"
 
 react-native-maps@0.27.1:
   version "0.27.1"
@@ -7052,13 +7020,6 @@ sudo-prompt@^9.0.0:
   version "9.2.1"
   resolved "https://registry.yarnpkg.com/sudo-prompt/-/sudo-prompt-9.2.1.tgz#77efb84309c9ca489527a4e749f287e6bdd52afd"
   integrity sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==
-
-supercluster@^3.0.1:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/supercluster/-/supercluster-3.0.3.tgz#3b7c86bbc8f56ecf35b923a4f5675676ed52e2cb"
-  integrity sha512-zMAN7WmhQ98GakoWyIDtfcnGCkZFr9drWhfpLnKJc+oy851yNBnpjnbN2ZR3xWkQm0ijIyoJCGhRmD9ikm+VeA==
-  dependencies:
-    kdbush "^1.0.1"
 
 supercluster@^7.0.0:
   version "7.1.0"
